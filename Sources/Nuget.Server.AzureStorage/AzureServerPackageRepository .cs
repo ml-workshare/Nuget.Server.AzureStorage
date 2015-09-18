@@ -3,6 +3,7 @@
 namespace Nuget.Server.AzureStorage
 {
     using AutoMapper;
+    using Microsoft.Azure;
     using Microsoft.WindowsAzure;
     using Microsoft.WindowsAzure.Storage;
     using Microsoft.WindowsAzure.Storage.Blob;

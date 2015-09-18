@@ -106,5 +106,10 @@ namespace NugetServer.AzureStorage.Tests
                 TestStream = fileStream
             };
         }
+
+        public void ExtractContents(IFileSystem fileSystem, string extractPath)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

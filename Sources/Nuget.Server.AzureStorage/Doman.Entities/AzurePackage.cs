@@ -53,5 +53,10 @@
         {
             throw new NotImplementedException();
         }
+
+        public void ExtractContents(IFileSystem fileSystem, string extractPath)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
